@@ -4,6 +4,9 @@ set -e
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OUTPUT_NAME="LiveBoot-Verbose-Galaga-v6.0.1.zip"
 OUTPUT_DIR="${1:-$REPO_DIR/dist}"
+if [[ "$OUTPUT_DIR" != /* ]]; then
+  OUTPUT_DIR="$REPO_DIR/$OUTPUT_DIR"
+fi
 
 mkdir -p "$OUTPUT_DIR"
 TARGET_ZIP="$OUTPUT_DIR/$OUTPUT_NAME"

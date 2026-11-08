@@ -84,6 +84,6 @@ The output zip will be saved in `dist/LiveBoot-Verbose-Galaga-v6.0.1.zip`.
 - Original LiveBoot by [Chainfire (Jorrit Jongma)](https://github.com/Chainfire)
 - Updated Android 16/15 compatibility patches by [AntiOblivionis](https://github.com/AntiOblivionis/liveboot)
 - Module packaging based on [symbuzzer/livebootmodule](https://github.com/symbuzzer/livebootmodule)
-- Tuned for Nothing Galaga & Voltage OS by [Addox Dev](https://github.com/tmk69545-gif)
+- Tuned for Nothing Galaga & Voltage OS by [ezzydev(Unknown)](https://github.com/tmk69545-gif)
 
 Licensed under the [GNU General Public License v3.0 (GPLv3)](LICENSE).
