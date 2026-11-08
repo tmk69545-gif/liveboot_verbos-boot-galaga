@@ -30,6 +30,39 @@ It streams live kernel ring buffer logs (`dmesg`) and Android system logs (`logc
 
 ---
 
+## 📱 Supported Devices & ROMs
+
+### 🎯 Primary Device
+- **Device**: **Nothing CMF Phone 2 Pro**
+- **Codename**: `Galaga`
+- **Display Resolution**: `1080 × 2412` AMOLED (20:9 aspect ratio, 120Hz)
+- *Note:* Also fully compatible with any other Android device; automatic resolution detection (`wm size`) adapts dynamically.
+
+### 🌟 Verified Custom ROMs for Galaga
+This module is systemless (never touches `/system` or `/vendor` partitions) and 100% compatible with all ROMs:
+- **Voltage OS** (voltage-6.2+ / Android 17, 16, 15)
+- **Axion OS** (axion-2.x QUASIS - Vanilla & GApps)
+- **Lunaris AOSP** (Lunaris-AOSP Community 3.x)
+- **Project Infinity-X** (Infinity-X 3.x GAPPS / Vanilla)
+- **Stock Nothing OS / CMF OS** (Official OEM firmware)
+- **LineageOS, crDroid, PixelOS, Evolution X**
+- **All Project Treble GSIs** (Generic System Images)
+
+### 🤖 Supported Android Versions
+- **Android 17** (Baklava / upcoming builds)
+- **Android 16** (BP2A)
+- **Android 15** (Vanilla Ice Cream)
+- **Android 14** (Upside Down Cake)
+- **Android 13 & 12**
+
+### ⚡ Supported Root Managers
+- **KernelSU Next**
+- **KernelSU** (Official)
+- **APatch**
+- **Magisk** (v20.4+)
+
+---
+
 ## 📥 Installation
 
 1. Download the latest `LiveBoot-Verbose-CMF-Phone-2-Pro-v6.0.1.zip` from the [Releases](https://github.com/tmk69545-gif/liveboot-voltage-galaga/releases) section.
