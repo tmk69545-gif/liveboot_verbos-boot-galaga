@@ -2,7 +2,8 @@
 set -e
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-OUTPUT_NAME="LiveBoot-Verbose-Galaga-v6.0.1.zip"
+OUTPUT_NAME="LiveBoot-Verbose-CMF-Phone-2-Pro-v6.0.1.zip"
+ALIAS_NAME="LiveBoot-Verbose-Galaga-v6.0.1.zip"
 OUTPUT_DIR="${1:-$REPO_DIR/dist}"
 if [[ "$OUTPUT_DIR" != /* ]]; then
   OUTPUT_DIR="$REPO_DIR/$OUTPUT_DIR"
@@ -10,6 +11,7 @@ fi
 
 mkdir -p "$OUTPUT_DIR"
 TARGET_ZIP="$OUTPUT_DIR/$OUTPUT_NAME"
+ALIAS_ZIP="$OUTPUT_DIR/$ALIAS_NAME"
 
 echo "[*] Packaging module to: $TARGET_ZIP"
 
@@ -32,6 +34,7 @@ chmod 644 "$TMP_DIR/config" "$TMP_DIR/module.prop" "$TMP_DIR/liveboot.apk" "$TMP
 
 cd "$TMP_DIR"
 zip -r -q "$TARGET_ZIP" .
+cp -f "$TARGET_ZIP" "$ALIAS_ZIP"
 
-echo "[+] Built successfully: $TARGET_ZIP"
-ls -lh "$TARGET_ZIP"
+echo "[+] Built successfully:"
+ls -lh "$TARGET_ZIP" "$ALIAS_ZIP"

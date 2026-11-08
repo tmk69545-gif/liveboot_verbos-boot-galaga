@@ -1,21 +1,25 @@
-# LiveBoot Verbose Boot - Nothing Phone (2a) Galaga Edition
+# LiveBoot Verbose Boot - Nothing CMF Phone 2 Pro (Galaga) Edition
 
 [![GitHub Release](https://img.shields.io/github/v/release/tmk69545-gif/liveboot-voltage-galaga?color=brightgreen&label=Release)](https://github.com/tmk69545-gif/liveboot-voltage-galaga/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Android: 17 | 16 | 15+](https://img.shields.io/badge/Android-17%20%7C%2016%20%7C%2015+-blue)](https://github.com/tmk69545-gif/liveboot-voltage-galaga)
+[![ROM: All Custom ROMs](https://img.shields.io/badge/ROM-All%20Custom%20ROMs%20(Voltage%20OS%2C%20AOSP%2C%20LineageOS)-success)](https://github.com/tmk69545-gif/liveboot-voltage-galaga)
 [![Root Support](https://img.shields.io/badge/Root-KernelSU%20%7C%20KernelSU--Next%20%7C%20APatch%20%7C%20Magisk-orange)](https://github.com/tmk69545-gif/liveboot-voltage-galaga)
-[![Device: Nothing Phone (2a)](https://img.shields.io/badge/Device-Nothing%20Phone%20(2a)%20(Galaga)-black)](https://github.com/tmk69545-gif/liveboot-voltage-galaga)
+[![Device: Nothing CMF Phone 2 Pro](https://img.shields.io/badge/Device-Nothing%20CMF%20Phone%202%20Pro%20(Galaga)-black)](https://github.com/tmk69545-gif/liveboot-voltage-galaga)
 
-A customized, flashable root module that brings a real-time, Unix-style **verbose boot mode** to the **Nothing Phone (2a) / Galaga** running **Voltage OS 6.2** (Android 16/15).
+A customized, flashable root module that brings a real-time, Unix-style **verbose boot mode** to the **Nothing CMF Phone 2 Pro (Galaga)** running **Voltage OS** (supporting **Android 17 / Android 16 / Android 15**), as well as **all AOSP and OEM custom ROMs**.
 
-It streams live kernel ring buffer logs (`dmesg`) and Android system logs (`logcat`) directly to the screen from early system boot.
+It streams live kernel ring buffer logs (`dmesg`) and Android system logs (`logcat`) directly to the display from early system boot.
 
 ---
 
-## ⚡ Features
+## ⚡ Features & Compatibility
 
+- **Universal Custom ROM Support**: Works on **Voltage OS**, **LineageOS**, **PixelOS**, **crDroid**, **Evolution X**, **Nothing OS**, and all standard AOSP-based ROMs.
+- **Android 17 & 16 Ready**: Fully updated with modern 64-bit ART/SurfaceFlinger hooks designed for Android 17 (Baklava), Android 16 (BP2A), and Android 15.
 - **Live On-Screen Log Stream**: View the real Linux kernel initialization (`dmesg`) and Android boot process (`logcat`) live as it happens.
 - **Color-Coded Syntax**: Highlights warnings, errors, fatals, and component tags for an authentic Linux terminal look.
-- **Calibrated for Nothing Galaga**:
+- **Calibrated for Nothing CMF Phone 2 Pro (Galaga)**:
   - Native display resolution fallback calibrated to **1080 × 2412** AMOLED.
   - 90-line display density with word-wrap.
   - Anti-flicker suicide delay (`500ms`) ensuring smooth transitions to your launcher.
@@ -28,7 +32,7 @@ It streams live kernel ring buffer logs (`dmesg`) and Android system logs (`logc
 
 ## 📥 Installation
 
-1. Download the latest `LiveBoot-Verbose-Galaga-v6.0.1.zip` from the [Releases](https://github.com/tmk69545-gif/liveboot-voltage-galaga/releases) section.
+1. Download the latest `LiveBoot-Verbose-CMF-Phone-2-Pro-v6.0.1.zip` from the [Releases](https://github.com/tmk69545-gif/liveboot-voltage-galaga/releases) section.
 2. Open your root manager app (**KernelSU**, **KernelSU Next**, or **Magisk**).
 3. Navigate to **Modules** → **Install from storage**.
 4. Select the downloaded ZIP package.
@@ -75,7 +79,7 @@ chmod +x build.sh
 ./build.sh dist/
 ```
 
-The output zip will be saved in `dist/LiveBoot-Verbose-Galaga-v6.0.1.zip`.
+The output zip will be saved in `dist/LiveBoot-Verbose-CMF-Phone-2-Pro-v6.0.1.zip` (and `LiveBoot-Verbose-Galaga-v6.0.1.zip`).
 
 ---
 
@@ -84,6 +88,6 @@ The output zip will be saved in `dist/LiveBoot-Verbose-Galaga-v6.0.1.zip`.
 - Original LiveBoot by [Chainfire (Jorrit Jongma)](https://github.com/Chainfire)
 - Updated Android 16/15 compatibility patches by [AntiOblivionis](https://github.com/AntiOblivionis/liveboot)
 - Module packaging based on [symbuzzer/livebootmodule](https://github.com/symbuzzer/livebootmodule)
-- Tuned for Nothing Galaga & Voltage OS by [ezzydev(Unknown)](https://github.com/tmk69545-gif)
+- Tuned for Nothing CMF Phone 2 Pro (Galaga) & Voltage OS by [ezzydev(Unknown)](https://github.com/tmk69545-gif)
 
 Licensed under the [GNU General Public License v3.0 (GPLv3)](LICENSE).

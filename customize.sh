@@ -1,6 +1,6 @@
-ui_print "****************************************"
-ui_print " LiveBoot Verbose Boot (Galaga Edition) "
-ui_print "****************************************"
+ui_print "*************************************************"
+ui_print " LiveBoot Verbose Boot (CMF Phone 2 Pro Edition) "
+ui_print "*************************************************"
 
 ui_print "- Detecting display resolution..."
 output="$(wm size 2>/dev/null)"
@@ -9,7 +9,7 @@ if [ "$output" ]; then
     width="$(echo "$width_height" | cut -d'x' -f1)"
     height="$(echo "$width_height" | cut -d'x' -f2)"
 else
-    # Fallback calibrated specifically for Nothing Phone (2a) Galaga (1080x2412)
+    # Fallback calibrated specifically for Nothing CMF Phone 2 Pro (Galaga) (1080x2412)
     width=1080
     height=2412
 fi

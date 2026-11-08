@@ -1,7 +1,7 @@
 id=livebootmagisk
-name=LiveBoot (Verbose Boot) - Nothing Galaga Edition
+name=LiveBoot (Verbose Boot) - Nothing CMF Phone 2 Pro Edition
 version=v6.0.1
 versionCode=60001
 author=ezzydev(Unknown)
-description=Unix-style live verbose boot animation (real-time dmesg + colored logcat) for KernelSU, KernelSU Next, APatch & Magisk on Nothing Phone (2a) / Galaga & Voltage OS.
+description=Unix-style live verbose boot animation (real-time dmesg + colored logcat) for KernelSU, KernelSU Next, APatch & Magisk on Nothing CMF Phone 2 Pro (Galaga) & Voltage OS.
 updateJson=https://raw.githubusercontent.com/tmk69545-gif/liveboot-voltage-galaga/main/update.json
