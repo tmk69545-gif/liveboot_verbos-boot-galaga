@@ -7,7 +7,7 @@
 [![Root Support](https://img.shields.io/badge/Root-KernelSU%20%7C%20KernelSU--Next%20%7C%20APatch%20%7C%20Magisk-orange)](https://github.com/tmk69545-gif/liveboot-voltage-galaga)
 [![Device: Nothing CMF Phone 2 Pro](https://img.shields.io/badge/Device-Nothing%20CMF%20Phone%202%20Pro%20(Galaga)-black)](https://github.com/tmk69545-gif/liveboot-voltage-galaga)
 
-A customized, flashable root module that brings a real-time, Unix-style **verbose boot mode** to the **Nothing CMF Phone 2 Pro (Galaga)** running **Voltage OS** (supporting **Android 17 / Android 16 / Android 15**), as well as **all AOSP and OEM custom ROMs**.
+A customized, flashable root module that brings a real-time, Unix-style **verbose boot mode** to the **Nothing CMF Phone 2 Pro (Galaga)** running **Voltage OS** (supporting **Android 17**), as well as **all AOSP and OEM custom ROMs**.
 
 It streams live kernel ring buffer logs (`dmesg`) and Android system logs (`logcat`) directly to the display from early system boot.
 
