@@ -1,0 +1,11 @@
+dark
+logcatlevels=VDIWEFS
+logcatbuffers=MSREC
+logcatformat=threadtime
+colors
+dmesg=0-99
+lines=90
+wordwrap
+suicidedelay=500
+fallbackwidth=1080
+fallbackheight=2412
